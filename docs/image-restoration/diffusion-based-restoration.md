@@ -1,13 +1,10 @@
 ---
 title: Diffusion-Based Restoration
-parent: Image Reconstruction
+parent: Image Restoration
 nav_order: 4
 ---
 
 # Diffusion-Based Restoration
-
-{: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing**. See the [Contribution Guide](../../contributing/) for the full criteria before submitting.
 
 ## 📄 Papers
 
@@ -29,3 +26,7 @@ nav_order: 4
 |-------|------|-------------|
 | Diffusers (HuggingFace) | [Link](https://github.com/huggingface/diffusers) | Widely used library for diffusion models; supports DDPM, DDIM, and many variants for image generation and restoration. |
 | guided-diffusion (OpenAI) | [Link](https://github.com/openai/guided-diffusion) | Official implementation of ADM, a strong baseline diffusion model used in many downstream restoration works. |
+
+
+{: .highlight }
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](CONTRIBUTING.md) before submitting.

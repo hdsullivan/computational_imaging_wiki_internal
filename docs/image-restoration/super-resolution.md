@@ -1,13 +1,10 @@
 ---
 title: Super-Resolution
-parent: Image Reconstruction
+parent: Image Restoration
 nav_order: 3
 ---
 
 # Super-Resolution
-
-{: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing**. See the [Contribution Guide](../../contributing/) for the full criteria before submitting.
 
 ## 📄 Papers
 
@@ -30,3 +27,7 @@ nav_order: 3
 |-------|------|-------------|
 | BasicSR | [Link](https://github.com/XPixelGroup/BasicSR) | PyTorch toolkit implementing SRCNN, ESRGAN, Real-ESRGAN, and other canonical SR models with training pipelines. |
 | Real-ESRGAN | [Link](https://github.com/xinntao/Real-ESRGAN) | Practical blind super-resolution for real-world degraded images; widely used for upscaling natural images. |
+
+
+{: .highlight }
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](CONTRIBUTING.md) before submitting.

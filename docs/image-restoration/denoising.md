@@ -1,13 +1,10 @@
 ---
 title: Denoising
-parent: Image Reconstruction
+parent: Image Restoration
 nav_order: 1
 ---
 
 # Denoising
-
-{: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing**. See the [Contribution Guide](../../contributing/) for the full criteria before submitting.
 
 ## 📄 Papers
 
@@ -29,3 +26,6 @@ nav_order: 1
 |-------|------|-------------|
 | DnCNN (official) | [Link](https://github.com/cszn/DnCNN) | Original MATLAB/PyTorch implementation of DnCNN, FFDNet, and other residual denoising networks. |
 | BasicSR | [Link](https://github.com/XPixelGroup/BasicSR) | PyTorch training framework that includes implementations of DnCNN, RealESRGAN, and other restoration models. |
+
+{: .highlight }
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](CONTRIBUTING.md) before submitting.

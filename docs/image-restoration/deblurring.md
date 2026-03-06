@@ -1,13 +1,11 @@
 ---
 title: Deblurring
-parent: Image Reconstruction
+parent: Image Restoration
 nav_order: 2
 ---
 
 # Deblurring
 
-{: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing**. See the [Contribution Guide](../../contributing/) for the full criteria before submitting.
 
 ## 📄 Papers
 
@@ -31,3 +29,7 @@ nav_order: 2
 | Restormer (official) | [Link](https://github.com/swz30/Restormer) | Official PyTorch implementation of Restormer for motion deblurring, denoising, and deraining. |
 | DeblurGAN-v2 | [Link](https://github.com/VITA-Group/DeblurGANv2) | GAN-based deblurring model with strong perceptual quality on real motion blur. |
 | MPRNet | [Link](https://github.com/swz30/MPRNet) | Multi-stage progressive restoration network; strong baseline for deblurring, denoising, and deraining. |
+
+
+{: .highlight }
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](CONTRIBUTING.md) before submitting.
