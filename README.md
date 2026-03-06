@@ -27,24 +27,14 @@ Papers should be seminal, widely cited, or clearly game-changing — work that h
 | Subfield | Papers | Datasets | Code |
 |----------|--------|----------|------|
 | [Inverse Problems](docs/inverse-problems.md) | ✓ | ✓ | ✓ |
-| [Phase Retrieval](docs/phase-retrieval.md) | ✓ | ✓ | ✓ |
-| [Compressed Sensing](docs/compressed-sensing.md) | ✓ | ✓ | ✓ |
-| [Computational Microscopy](docs/computational-microscopy.md) | ✓ | ✓ | ✓ |
-| [Neural Scene Representation](docs/neural-scene-representation.md) | ✓ | ✓ | ✓ |
-| [Medical Imaging](docs/medical-imaging.md) | ✓ | ✓ | ✓ |
-| [Image Reconstruction](docs/image-reconstruction.md) | ✓ | ✓ | ✓ |
+| [Image Restoration](docs/image-reconstruction.md) | ✓ | ✓ | ✓ |
 
 ---
 
 ## Current Subfields
 
 - **Inverse Problems** — reconstruction from indirect, noisy, or incomplete measurements
-- **Phase Retrieval** — recovering phase from intensity-only observations
-- **Compressed Sensing** — sparse signal recovery from underdetermined measurements
-- **Computational Microscopy** — imaging beyond classical diffraction and resolution limits
-- **Neural Scene Representation** — NeRF, Gaussian Splatting, and implicit neural representations
-- **Medical Imaging** — MRI/CT reconstruction, segmentation, and clinical image analysis
-- **Image Reconstruction** — general denoising, deblurring, super-resolution, and restoration
+- **Image Restoration** — general denoising, deblurring, super-resolution, and restoration
 
 ---
 
