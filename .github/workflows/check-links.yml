@@ -1,0 +1,57 @@
+name: Check Links
+
+on:
+  pull_request:
+    branches: [main]
+  schedule:
+    # Runs every Sunday at midnight UTC
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    name: Dead Link Checker
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v1
+        with:
+          # Check all markdown files
+          args: >
+            --verbose
+            --no-progress
+            --accept 200,206,429
+            --timeout 30
+            --retry-wait-time 5
+            --max-retries 2
+            --exclude-mail
+            '**/*.md'
+          # Warn only — do not fail the workflow so PRs aren't blocked
+          fail: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Post link check summary as PR comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: link-check
+          message: |
+            ## Link Check Results
+
+            ${{ steps.lychee.outputs.exit_code == 0 && '✅ All links are valid.' || '⚠️ Some links may be broken. Please review the list below and fix any that are genuinely dead.' }}
+
+            <details>
+            <summary>Full report</summary>
+
+            ```
+            ${{ steps.lychee.outputs.output }}
+            ```
+            </details>
+
+            *This check is informational and does not block merging.*
