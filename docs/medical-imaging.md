@@ -13,7 +13,7 @@ Medical imaging encompasses the computational methods for acquiring, reconstruct
 
 
 {: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](../contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -51,4 +51,4 @@ Medical imaging encompasses the computational methods for acquiring, reconstruct
 ---
 
 {: .highlight }
-> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](/contributing/) before submitting.
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../contributing/) before submitting.

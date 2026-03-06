@@ -18,7 +18,7 @@ Whether you're learning a new area or trying to keep track of the best work comi
 
 → **[Full Contribution Guide](CONTRIBUTING.md)**
 
-The bar is low: if it's real, relevant, and accurately described, it belongs here. An area lead will review and merge, usually within a few days. To propose a new subfield, open a [GitHub Discussion](../../discussions) with the label `new-subfield`.
+Papers should be seminal, widely cited, or clearly game-changing — work that has moved the field or is poised to. Datasets and code should be well-documented and in broad use. Emerging work is welcome if you make a strong case for why it clears the bar. An area lead will review your PR, usually within a few days. To propose a new subfield, open a [GitHub Discussion](../../discussions) with the label `new-subfield`.
 
 ---
 
@@ -48,4 +48,4 @@ The bar is low: if it's real, relevant, and accurately described, it belongs her
 
 ---
 
-*Maintained by the computational imaging research community. Not affiliated with any single institution.*
+*Maintained by the computational imaging research community. POCs: Haley Duba-Sullivan (sullivanhe@ornl.gov) and Jeffrey Utley (jeffrey.utley@gmail.com)*

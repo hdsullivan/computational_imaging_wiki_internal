@@ -15,7 +15,7 @@ nav_order: 99
 ## 📄 Papers
 
 {: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria before submitting.
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](../contributing/) for the full criteria before submitting.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -40,4 +40,4 @@ nav_order: 99
 ---
 
 {: .highlight }
-> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](/contributing/) before submitting.
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../contributing/) before submitting.

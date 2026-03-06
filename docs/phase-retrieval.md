@@ -13,7 +13,7 @@ Phase retrieval is the problem of recovering a signal from measurements of its F
 
 
 {: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](../contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -47,4 +47,4 @@ Phase retrieval is the problem of recovering a signal from measurements of its F
 ---
 
 {: .highlight }
-> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](/contributing/) before submitting.
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../contributing/) before submitting.
