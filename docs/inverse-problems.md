@@ -44,4 +44,4 @@ Inverse problems involve recovering an unknown quantity — an image, signal, or
 ---
 
 {: .highlight }
-> 💡 **Missing something?** Add a paper, dataset, or code repo in 5 minutes — [see the Contribution Guide](../CONTRIBUTING.md).
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../CONTRIBUTING.md) before submitting.

@@ -7,14 +7,14 @@ nav_order: 1
 
 Welcome! This wiki is a community-maintained resource hub for researchers in **computational imaging**. It provides a central place to discover and contribute:
 
-- **Papers** — foundational works and notable recent publications
+- **Papers** — seminal and game-changing works that have shaped the field
 - **Datasets** — benchmarks and experimental data used in the community
 - **Code & Software** — open-source implementations and toolkits
 
 Resources are organized by subfield, so you can quickly find what's relevant whether you're entering a new area or tracking the state of the art in your own.
 
 {: .highlight }
-> 📌 **Know something that should be here?** Adding a paper, dataset, or code repo takes about 5 minutes. All you need is a GitHub account and a working link — [read the Contribution Guide to get started](CONTRIBUTING.md).
+> 📌 **Know a paper that changed how people think about a problem?** This wiki is for work that has genuinely moved the field — seminal methods, landmark results, and widely-used tools. [Read the Contribution Guide before submitting](CONTRIBUTING.md).
 
 ---
 
@@ -36,8 +36,8 @@ If you're entering the field or exploring a new subfield, a suggested reading or
 
 ---
 
-## Contribute in 5 Minutes
+## Contribute
 
-Found a paper, dataset, or codebase that should be here? Open a pull request — an area lead will review and merge it, usually within a few days.
+This wiki is selective by design — papers should be ones the community widely recognizes as important. If you have a nomination, open a pull request and make the case for why it belongs.
 
 **[→ Read the Contribution Guide](CONTRIBUTING.md)**
