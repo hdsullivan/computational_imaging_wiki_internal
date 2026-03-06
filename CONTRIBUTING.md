@@ -1,5 +1,6 @@
 ---
 title: Contributing
+permalink: /contributing/
 nav_order: 9
 ---
 

@@ -14,7 +14,7 @@ Welcome! This wiki is a community-maintained resource hub for researchers in **c
 Resources are organized by subfield, so you can quickly find what's relevant whether you're entering a new area or tracking the state of the art in your own.
 
 {: .highlight }
-> 📌 **Know a paper that changed how people think about a problem?** This wiki is for work that has genuinely moved the field — seminal methods, landmark results, and widely-used tools. [Read the Contribution Guide before submitting](CONTRIBUTING.md).
+> 📌 **Know a paper that changed how people think about a problem?** This wiki is for work that has genuinely moved the field — seminal methods, landmark results, and widely-used tools. [Read the Contribution Guide before submitting](/contributing/).
 
 ---
 
@@ -40,4 +40,4 @@ If you're entering the field or exploring a new subfield, a suggested reading or
 
 This wiki is selective by design — papers should be ones the community widely recognizes as important. If you have a nomination, open a pull request and make the case for why it belongs.
 
-**[→ Read the Contribution Guide](CONTRIBUTING.md)**
+**[→ Read the Contribution Guide](/contributing/)**

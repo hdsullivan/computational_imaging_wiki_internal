@@ -35,4 +35,4 @@ nav_order: 99
 
 ---
 
-*To add an entry, see [CONTRIBUTING.md](../CONTRIBUTING.md).*
+*To add an entry, see [CONTRIBUTING.md](/contributing/).*
