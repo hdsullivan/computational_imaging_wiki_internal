@@ -13,6 +13,9 @@ Welcome! This wiki is a community-maintained resource hub for researchers in **c
 
 Resources are organized by subfield, so you can quickly find what's relevant whether you're entering a new area or tracking the state of the art in your own.
 
+{: .highlight }
+> 📌 **Know something that should be here?** Adding a paper, dataset, or code repo takes about 5 minutes. All you need is a GitHub account and a working link — [read the Contribution Guide to get started](CONTRIBUTING.md).
+
 ---
 
 ## Browse by Subfield
@@ -27,10 +30,14 @@ Resources are organized by subfield, so you can quickly find what's relevant whe
 
 ---
 
+## New to Computational Imaging?
+
+If you're entering the field or exploring a new subfield, a suggested reading order is: start with **[Compressed Sensing](docs/compressed-sensing.md)** for the theoretical foundations of underdetermined recovery, then **[Inverse Problems](docs/inverse-problems.md)** for the broader algorithmic landscape, and branch into application areas like **[Medical Imaging](docs/medical-imaging.md)** or **[Computational Microscopy](docs/computational-microscopy.md)** from there.
+
+---
+
 ## Contribute in 5 Minutes
 
-Found a paper, dataset, or codebase that should be here? It takes just a few minutes to add it.
+Found a paper, dataset, or codebase that should be here? Open a pull request — an area lead will review and merge it, usually within a few days.
 
-→ Read the [Contribution Guide](CONTRIBUTING.md) to get started.
-
-All you need is a GitHub account and a working link. An area lead will review and merge your PR, usually within a few days.
+**[→ Read the Contribution Guide](CONTRIBUTING.md)**
