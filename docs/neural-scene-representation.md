@@ -45,4 +45,5 @@ Neural scene representations encode 3D scenes — geometry, appearance, and ligh
 
 ---
 
-*To add an entry, see [CONTRIBUTING.md](../CONTRIBUTING.md).*
+{: .highlight }
+> 💡 **Missing something?** Add a paper, dataset, or code repo in 5 minutes — [see the Contribution Guide](../CONTRIBUTING.md).

@@ -46,4 +46,5 @@ Medical imaging encompasses the computational methods for acquiring, reconstruct
 
 ---
 
-*To add an entry, see [CONTRIBUTING.md](../CONTRIBUTING.md).*
+{: .highlight }
+> 💡 **Missing something?** Add a paper, dataset, or code repo in 5 minutes — [see the Contribution Guide](../CONTRIBUTING.md).

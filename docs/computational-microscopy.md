@@ -44,4 +44,5 @@ Computational microscopy combines optical hardware design with advanced algorith
 
 ---
 
-*To add an entry, see [CONTRIBUTING.md](../CONTRIBUTING.md).*
+{: .highlight }
+> 💡 **Missing something?** Add a paper, dataset, or code repo in 5 minutes — [see the Contribution Guide](../CONTRIBUTING.md).
