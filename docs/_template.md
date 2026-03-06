@@ -1,25 +1,18 @@
 ---
 title: [Subfield Name]
 nav_order: 99
+has_children: true
 ---
 
 # [Subfield Name]
 
 {: .note }
-> 📋 **Using this template:** Copy this file to `docs/your-subfield-name.md`, replace all placeholder text, and update `title` and `nav_order` in the front matter above.
+> 📋 **Using this template:** Copy this file to `docs/your-subfield-name.md` and create a `docs/your-subfield-name/` folder for child pages. Update `title` and `nav_order` in the front matter, and replace all placeholder text.
 
 [2–3 sentences describing this subfield. What is the core problem it addresses? What makes it distinct within computational imaging?]
 
----
-
-## 📄 Papers
-
-{: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](../contributing/) for the full criteria before submitting.
-
-| Title | Link | Year | Description |
-|-------|------|------|-------------|
-| Example Paper Title | [Link](https://arxiv.org/abs/xxxx.xxxxx) | 20XX | One sentence on what this paper introduced and why it matters to the field. |
+Browse papers by sub-topic using the sidebar, or jump directly to:
+[Sub-topic A](your-subfield-name/sub-topic-a) · [Sub-topic B](your-subfield-name/sub-topic-b)
 
 ---
 
@@ -41,3 +34,17 @@ nav_order: 99
 
 {: .highlight }
 > 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../contributing/) before submitting.
+
+---
+
+## Child Page Template
+
+For each sub-topic, create a file at `docs/your-subfield-name/sub-topic-name.md` with this front matter:
+
+```yaml
+---
+title: [Sub-topic Name]
+parent: [Subfield Name]   # must match the title above exactly
+nav_order: 1
+---
+```
