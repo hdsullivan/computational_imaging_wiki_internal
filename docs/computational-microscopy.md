@@ -9,7 +9,11 @@ Computational microscopy combines optical hardware design with advanced algorith
 
 ---
 
-## Foundational & Highly Cited Papers
+## 📄 Papers
+
+
+{: .important }
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -22,7 +26,7 @@ Computational microscopy combines optical hardware design with advanced algorith
 
 ---
 
-## Datasets
+## 🗄️ Datasets
 
 | Title | Link | Description |
 |-------|------|-------------|
@@ -33,7 +37,7 @@ Computational microscopy combines optical hardware design with advanced algorith
 
 ---
 
-## Code & Software
+## 💻 Code & Software
 
 | Title | Link | Description |
 |-------|------|-------------|

@@ -9,7 +9,11 @@ Inverse problems involve recovering an unknown quantity — an image, signal, or
 
 ---
 
-## Foundational & Highly Cited Papers
+## 📄 Papers
+
+
+{: .important }
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -22,7 +26,7 @@ Inverse problems involve recovering an unknown quantity — an image, signal, or
 
 ---
 
-## Datasets
+## 🗄️ Datasets
 
 | Title | Link | Description |
 |-------|------|-------------|
@@ -32,7 +36,7 @@ Inverse problems involve recovering an unknown quantity — an image, signal, or
 
 ---
 
-## Code & Software
+## 💻 Code & Software
 
 | Title | Link | Description |
 |-------|------|-------------|

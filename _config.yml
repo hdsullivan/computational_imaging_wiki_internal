@@ -15,7 +15,7 @@ search:
   button: false
 
 # Footer
-footer_content: "Maintained by the computational imaging research community. Contributions welcome via <a href='https://github.com/your-org/computational-imaging-wiki'>GitHub</a>."
+footer_content: "Maintained by the computational imaging research community. Contributions welcome via <a href='https://github.com/hdsullivan/computational_imaging_wiki_internal'>GitHub</a>."
 
 # Callouts
 callouts_level: quiet
@@ -37,5 +37,5 @@ permalink: pretty
 
 # Exclude from build
 exclude:
-  - CONTRIBUTING.md
+
   - "*.sh"

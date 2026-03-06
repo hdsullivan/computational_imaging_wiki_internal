@@ -9,7 +9,11 @@ Neural scene representations encode 3D scenes — geometry, appearance, and ligh
 
 ---
 
-## Foundational & Highly Cited Papers
+## 📄 Papers
+
+
+{: .important }
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -22,7 +26,7 @@ Neural scene representations encode 3D scenes — geometry, appearance, and ligh
 
 ---
 
-## Datasets
+## 🗄️ Datasets
 
 | Title | Link | Description |
 |-------|------|-------------|
@@ -33,7 +37,7 @@ Neural scene representations encode 3D scenes — geometry, appearance, and ligh
 
 ---
 
-## Code & Software
+## 💻 Code & Software
 
 | Title | Link | Description |
 |-------|------|-------------|

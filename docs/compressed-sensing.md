@@ -9,7 +9,11 @@ Compressed sensing (or compressive sensing) establishes that sparse signals can 
 
 ---
 
-## Foundational & Highly Cited Papers
+## 📄 Papers
+
+
+{: .important }
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -22,7 +26,7 @@ Compressed sensing (or compressive sensing) establishes that sparse signals can 
 
 ---
 
-## Datasets
+## 🗄️ Datasets
 
 | Title | Link | Description |
 |-------|------|-------------|
@@ -32,7 +36,7 @@ Compressed sensing (or compressive sensing) establishes that sparse signals can 
 
 ---
 
-## Code & Software
+## 💻 Code & Software
 
 | Title | Link | Description |
 |-------|------|-------------|

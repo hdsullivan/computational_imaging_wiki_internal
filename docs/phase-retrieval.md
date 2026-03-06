@@ -9,7 +9,11 @@ Phase retrieval is the problem of recovering a signal from measurements of its F
 
 ---
 
-## Foundational & Highly Cited Papers
+## 📄 Papers
+
+
+{: .important }
+> Papers listed here should be **seminal, widely cited, or game-changing** — work the community broadly recognizes as essential reading. See the [Contribution Guide](/contributing/) for the full criteria.
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
@@ -22,7 +26,7 @@ Phase retrieval is the problem of recovering a signal from measurements of its F
 
 ---
 
-## Datasets
+## 🗄️ Datasets
 
 | Title | Link | Description |
 |-------|------|-------------|
@@ -31,7 +35,7 @@ Phase retrieval is the problem of recovering a signal from measurements of its F
 
 ---
 
-## Code & Software
+## 💻 Code & Software
 
 | Title | Link | Description |
 |-------|------|-------------|
