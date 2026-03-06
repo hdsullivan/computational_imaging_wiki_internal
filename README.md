@@ -1,12 +1,24 @@
 # Computational Imaging Wiki
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://your-org.github.io/computational-imaging-wiki)
-[![Last Commit](https://img.shields.io/github/last-commit/your-org/computational-imaging-wiki)](https://github.com/your-org/computational-imaging-wiki/commits/main)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-live-brightgreen)](https://hdsullivan.github.io/computational_imaging_wiki_internal/)
+[![Last Commit](https://img.shields.io/github/last-commit/hdsullivan/computational_imaging_wiki_internal)](https://github.com/hdsullivan/computational_imaging_wiki_internal/commits/main)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)](CONTRIBUTING.md)
 
 A community-maintained resource hub for researchers in computational imaging. Find curated links to foundational papers, benchmark datasets, and open-source code — organized by subfield.
 
 Whether you're learning a new area or trying to keep track of the best work coming out of the community, this is your starting point.
+
+## ➕ How to Contribute
+
+**Contributions are welcome from anyone in the research community.** Adding a paper, dataset, or code repo takes about 5 minutes:
+
+1. Fork this repo
+2. Add your entry to the right subfield page under `docs/` using the table format
+3. Open a pull request using the template
+
+→ **[Full Contribution Guide](CONTRIBUTING.md)**
+
+The bar is low: if it's real, relevant, and accurately described, it belongs here. An area lead will review and merge, usually within a few days. To propose a new subfield, open a [GitHub Discussion](../../discussions) with the label `new-subfield`.
 
 ---
 
@@ -21,14 +33,6 @@ Whether you're learning a new area or trying to keep track of the best work comi
 | [Neural Scene Representation](docs/neural-scene-representation.md) | ✓ | ✓ | ✓ |
 | [Medical Imaging](docs/medical-imaging.md) | ✓ | ✓ | ✓ |
 | [Image Reconstruction](docs/image-reconstruction.md) | ✓ | ✓ | ✓ |
-
----
-
-## How to Contribute
-
-Contributions are welcome from anyone in the research community. To add a paper, dataset, or code repository, open a pull request following the steps in [CONTRIBUTING.md](CONTRIBUTING.md). The bar is low: if it's real, relevant, and accurately described, it belongs here.
-
-To propose a new subfield, open a [GitHub Discussion](../../discussions) with the label `new-subfield`.
 
 ---
 
