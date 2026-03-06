@@ -13,23 +13,26 @@ This wiki is intentionally selective. The goal is a resource researchers can tru
 ## What Belongs Here
 
 ### Papers
-Papers should meet at least one of these criteria:
-- **Foundational** — introduced a method, framework, or idea that the subfield is built on
-- **Widely cited and adopted** — work the community broadly recognizes as a standard reference or benchmark
-- **Game-changing** — a recent result that has clearly shifted how researchers approach a problem
+A paper belongs here if it falls into either of these categories:
 
-If you're unsure whether a paper clears the bar, ask yourself: *would a researcher new to this subfield need to read this to understand the landscape?* If the honest answer is no, it's probably not ready for this wiki.
+**Established impact** — work the community broadly recognizes as essential:
+- Introduced a method, framework, or idea that the subfield is built on
+- Widely cited and adopted as a standard reference or benchmark
+- Fundamentally shifted how researchers approach a problem
 
-Papers that are **not** a good fit: incremental improvements, workshop papers, preprints without significant community uptake, or work whose long-term impact hasn't been established yet.
+**Emerging work** — recent papers not yet widely adopted, but with a clear case for exceptional significance:
+- Represents a genuine step-change in methodology or results, not an incremental improvement
+- Comes with a strong contributor explanation of *why* it clears the bar (required in the PR)
+
+The gut-check question for both: *does this change how people think about the problem, or is it likely to?* Incremental improvements, workshop papers, and routine applications of existing methods are not a good fit regardless of novelty.
 
 ### Datasets
-Datasets should be widely used as benchmarks in the community — ones that appear repeatedly in comparisons across papers. Niche or single-paper datasets are not a good fit unless they've become a standard.
+Datasets should be well-documented and either widely used as a benchmark already, or newly released with a clear case for why they will become one — strong coverage, a credible source, and an obvious gap they fill. Niche or single-use datasets without broader applicability are not a good fit.
 
 ### Code & Software
-Code should be well-maintained, publicly accessible, and in broad use. Reference implementations of landmark methods are ideal. Personal research code with no documentation or community adoption is not a good fit.
+Code should be well-maintained, publicly documented, and either already in broad use or a high-quality reference implementation of an important method. Emerging tools from active research groups are welcome if they are clearly documented and filling a real gap. Personal research code without documentation or community adoption is not a good fit.
 
 ---
-
 ## How to Contribute (Step by Step)
 
 1. **Fork** this repository to your own GitHub account.
@@ -83,12 +86,17 @@ Assume the reader is a researcher in a neighboring subfield who needs to quickly
 
 ## Proposing a New Subfield
 
-If your resource doesn't fit any existing subfield:
+If your resource doesn't fit any existing subfield, you can propose a new one — but new subfields require an area lead to be active from the start. A wiki page with no one tending it quickly goes stale.
+
+To propose a new subfield:
 
 1. Open a [GitHub Discussion](../../discussions) with the label `new-subfield`.
 2. Include a one-paragraph motivation: what is this subfield and why does it belong in a computational imaging wiki?
 3. List at least **3 seed resources** you would add immediately, each clearly meeting the quality bar above.
-4. Once a maintainer approves, create a new file under `docs/` using `docs/_template.md` as your starting point.
+4. **Name an area lead** — either yourself or someone who has agreed to take on the role. New subfields will not be approved without a committed area lead.
+5. Once a maintainer approves, create a new file under `docs/` using `docs/_template.md` as your starting point.
+
+Being an area lead is a light commitment: reviewing the occasional PR in your subfield and keeping an eye on link quality over time. It does not require ongoing curation or content creation.
 
 ---
 
