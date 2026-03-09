@@ -58,6 +58,7 @@ Classical methods exploit hand-crafted image priors — non-local self-similarit
 | Toward Convolutional Blind Denoising of Real Photographs (Guo et al.) | [Link](http://openaccess.thecvf.com/content_CVPR_2019/html/Guo_Toward_Convolutional_Blind_Denoising_of_Real_Photographs_CVPR_2019_paper.html) | 2019 | Introduces CBDNet, a two-stage model that estimates a noise map before performing denoising, enabling improved performance on real camera noise. |
 | Plug-and-Play Image Restoration with Deep Denoiser Prior (Zhang et al.) | [Link](https://ieeexplore.ieee.org/abstract/document/9454311) | 2021 | Introduces DRUNet, a powerful noise-level conditioned UNet denoiser used for Gaussian and real image denoising and widely adopted in image restoration pipelines. |
 | Restormer: Efficient Transformer for High-Resolution Image Restoration (Zamir et al.) | [Link](https://openaccess.thecvf.com/content/CVPR2022/html/Zamir_Restormer_Efficient_Transformer_for_High-Resolution_Image_Restoration_CVPR_2022_paper.html) | 2022 | Transformer-based architecture designed for high-resolution restoration tasks including deblurring. |
+
 ---
 
 ## 🗄️ Datasets
