@@ -85,4 +85,5 @@ Classical methods exploit hand-crafted image priors — non-local self-similarit
 
 ---
 
+{: .highlight }
 > 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../../CONTRIBUTING.md) before submitting.

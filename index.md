@@ -21,11 +21,6 @@ Resources are organized by subfield, so you can quickly find what's relevant whe
 ## Browse by Subfield
 
 - [Inverse Problems](docs/inverse-problems.md)
-<!-- - [Phase Retrieval](docs/phase-retrieval.md)
-- [Compressed Sensing](docs/compressed-sensing.md)
-- [Computational Microscopy](docs/computational-microscopy.md)
-- [Neural Scene Representation](docs/neural-scene-representation.md)
-- [Medical Imaging](docs/medical-imaging.md) -->
 - [Image Restoration](docs/image-restoration.md)
 
 ---
