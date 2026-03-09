@@ -12,4 +12,4 @@ Browse papers by sub-topic using the sidebar, or jump directly to:
 [Denoising](denoising) · [Deblurring](deblurring) · [Super-Resolution](super-resolution)
 
 {: .highlight }
-> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](CONTRIBUTING.md) before submitting.
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../CONTRIBUTING.md) before submitting.

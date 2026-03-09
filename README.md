@@ -27,7 +27,7 @@ Papers should be seminal, widely cited, or clearly game-changing — work that h
 | Subfield | Papers | Datasets | Code |
 |----------|--------|----------|------|
 | [Inverse Problems](docs/inverse-problems.md) | ✓ | ✓ | ✓ |
-| [Image Restoration](docs/image-reconstruction.md) | ✓ | ✓ | ✓ |
+| [Image Restoration](docs/image-restoration.md) | ✓ | ✓ | ✓ |
 
 ---
 
