@@ -8,7 +8,7 @@ nav_order: 3
 
 Single-image super-resolution (SISR) is the task of recovering a high-resolution image $x$ from a low-resolution observation $y$. The classical degradation model is:
 
-$$y = (x \otimes k) \downarrow_s + n$$
+$$y = (k \ast x) \downarrow_s + n$$
 
 where $k$ is a blur kernel, $\downarrow_s$ is a downsampling operator with scale factor $s$, and $n$ is additive noise. SISR is severely ill-posed since many high-resolution images are consistent with a single low-resolution input, so strong image priors are essential.
 
@@ -17,7 +17,7 @@ where $k$ is a blur kernel, $\downarrow_s$ is a downsampling operator with scale
 The choice of degradation model has major implications for which methods work in practice:
 
 - **Bicubic downsampling:** The dominant assumption in early deep learning SISR. Assumes a fixed, known downsampling kernel and no noise. Methods trained under this assumption often fail on real photographs, where the actual degradation is unknown.
-- **Blur + subsampling:** The kernel $k$ is known (e.g., a Gaussian with a given width) but not necessarily bicubic. The image is first blurred, then uniformly downsampled. This is the classical formulation used in many signal-processing and early deep learning methods (e.g., SRMD, IKC), and is more physically grounded than bicubic-only assumptions. Methods under this model are often evaluated across multiple kernel types and sizes.
+- **Blur + subsampling:** The kernel $k$ is known (e.g., a Gaussian with a given width) but not necessarily bicubic. The image is first blurred, then uniformly downsampled. This is the classical formulation used in many signal-processing and early deep learning methods, and is more physically grounded than bicubic-only assumptions. Methods under this model are often evaluated across multiple kernel types and sizes.
 - **Blind / real-world SISR:** The degradation kernel $k$ is unknown and spatially varying. Real images suffer from sensor noise, optical aberrations, compression artifacts, and complex ISP processing. Real-ESRGAN and related methods use complex synthetic degradation pipelines during training to bridge the sim-to-real gap.
 - **Multi-image SR:** Multiple observations of the same scene (with sub-pixel offsets) are fused to reconstruct a single high-resolution image. Common in satellite imaging and video SR.
 
