@@ -2,8 +2,11 @@
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the main branch
   push:
+    branches: ["main"]
+  # Runs on pull requests targeting the main branch
+  pull_request:
     branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -45,6 +48,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    # Only run the deployment job on pushes to the main branch
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
