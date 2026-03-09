@@ -11,9 +11,12 @@ This area covers the use of physical systems to correct for optical aberrations 
 ---
 ## 📄 Papers
 
+### Foundation Papers
+
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
-| Seminal Paper 1 | Link | 2010 | Description of the paper's contribution. |
+| Introduction to Adaptive Optics | [Link](https://doi.org/10.1117/3.358220) | 2000 | This foundational textbook provides a clear introduction to the components of an adaptive optics system, including wavefront sensors and deformable mirrors. It's an essential reference for understanding the core hardware and control principles. |
+| Adaptive optics for directed energy: Fundamentals and methodology | [Link](https://arc.aiaa.org/doi/10.2514/1.J061766) | 2022 | This comprehensive paper breaks down the unique challenges of using adaptive optics for high-energy laser systems, moving beyond standard astronomical applications to tackle complex issues like rapid target motion and laser-induced thermal blooming.  It is an excellent, practical guide for understanding the different system architectures and performance budgets required to keep a laser sharply focused on a moving target through a turbulent atmosphere. |
 
 <!-- ---
 ## 🗄️ Datasets

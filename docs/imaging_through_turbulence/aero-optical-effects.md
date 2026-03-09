@@ -11,9 +11,14 @@ This area focuses on the optical distortions caused by light propagation through
 ---
 ## 📄 Papers
 
+### Foundation/Review Papers
+
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
-| Seminal Paper 1 | Link | 2010 | Description of the paper's contribution. |
+| Physics and computation of aero-optics | [Link](https://www.annualreviews.org/content/journals/10.1146/annurev-fluid-120710-101152) | 2012 | This paper connects fluid mechanics with optical physics by reviewing computational methods like LES and DNS for predicting aero-optical effects. It’s highly useful if you're looking to computationally model turbulent flow fields or test different mitigation strategies. |
+| Physics and measurement of aero-optical effects: Past and present | [Link](https://www.annualreviews.org/content/journals/10.1146/annurev-fluid-010816-060315) | 2017 | This review covers the history of aero-optics research, from early statistical approximations to modern time-resolved techniques. It's a helpful overview of how faster, higher-bandwidth wavefront sensors have improved our understanding of turbulence. |
+| Recent advances in aero-optics | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0376042101000082) | 2001 | This paper highlights the shift toward dynamic aero-optics measurements that occurred in the 1990s. It's a solid starting point for learning how the introduction of high-speed sensors helped researchers connect fluid dynamics directly with optical distortions. |
+| The optical distortion mechanism in a nearly incompressible free shear layer | [Link](https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/optical-distortion-mechanism-in-a-nearly-incompressible-free-shear-layer/695CDE2E743F82FB973850B113BD0EC4) | 2004 | This paper showed that pressure variations within coherent vortices, rather than just heating effects, are the main cause of optical distortions in subsonic shear layers. It’s a great read for understanding the specific fluid mechanisms that drive aero-optical aberrations. |
 
 <!-- ---
 ## 🗄️ Datasets
