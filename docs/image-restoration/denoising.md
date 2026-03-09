@@ -26,33 +26,38 @@ The choice of noise model fundamentally shapes both the formulation and the algo
 Classical methods exploit hand-crafted image priors — non-local self-similarity (NLM, BM3D), sparse coding (K-SVD), or low-rank structure (WNNM) — and remain highly competitive reference points, especially at low noise levels. Deep learning methods learn rich image priors from data and now hold state-of-the-art performance, particularly on real-noise benchmarks where classical assumptions break down.
 
 ---
-
 ## 📄 Papers
 
-{: .important }
-> Papers listed here should be **seminal, widely cited, or game-changing** — work that has moved the field or is poised to. Incremental improvements belong in linked reading lists, not here. [Read the Contribution Guide](../../contributing/) before submitting.
-
-### Classical & Statistical Methods
+### Classical & Variational Methods
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
-| A Non-Local Algorithm for Image Denoising (NLM) (Buades et al.) | [Link](https://ieeexplore.ieee.org/document/1467423) | 2005 | Introduces non-local means: each pixel is restored as a weighted average of all pixels with similar local neighborhoods. Established non-local self-similarity as a foundational prior for image restoration. |
-| Image Denoising by Sparse 3D Transform-Domain Collaborative Filtering (BM3D) (Dabov et al.) | [Link](https://ieeexplore.ieee.org/document/4271520) | 2007 | BM3D groups similar 2D patches into 3D stacks, applies collaborative hard-thresholding in the transform domain, and aggregates. Remained the standard AWGN denoising benchmark for over a decade. |
-| K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation (Aharon et al.) | [Link](https://ieeexplore.ieee.org/document/1710377) | 2006 | Learns a patch dictionary directly from noisy images; denoising is done by sparse coding each patch over the learned dictionary. Influential in dictionary-learning approaches to image restoration. |
-| Weighted Nuclear Norm Minimization with Application to Image Denoising (WNNM) (Gu et al.) | [Link](https://ieeexplore.ieee.org/document/6909921) | 2014 | Groups similar patches and denoises by minimizing a weighted nuclear norm of the stacked patch matrix. Strong non-local prior; competitive with BM3D on AWGN benchmarks. |
+| Nonlinear Total Variation Based Noise Removal Algorithms (Rudin et al.) | [Link](https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/016727899290242F) | 1992 | Introduces total variation (TV) denoising, a variational formulation that preserves edges while removing noise. One of the most influential early image restoration models. |
+| Fields of Experts: A Framework for Learning Image Priors (Roth & Black) | [Link](https://ieeexplore.ieee.org/abstract/document/1467533) | 2005 | Introduces learned Markov random field priors using filter responses. A key step toward learning-based statistical models for image restoration. |
+| From Learning Models of Natural Image Patches to Whole Image Restoration (Zoran & Weiss) | [Link](https://legacy.sites.fas.harvard.edu/~cs278/papers/zw.pdf) | 2011 | Uses Gaussian mixture models of natural image patches as a prior for image restoration. Demonstrates strong performance across denoising, deblurring, and inpainting. |
+
+---
+
+### Non-Local & Patch-Based Methods
+
+| Title | Link | Year | Description |
+|-------|------|------|-------------|
+| A Non-Local Algorithm for Image Denoising (Buades et al.) | [Link](https://ieeexplore.ieee.org/abstract/document/1467423/) | 2005 | Introduces non-local means, where each pixel is restored as a weighted average of pixels with similar neighborhoods. Established non-local self-similarity as a key image prior. |
+| K-SVD: An Algorithm for Designing Overcomplete Dictionaries for Sparse Representation (Aharon et al.) | [Link](https://ieeexplore.ieee.org/abstract/document/1710377/) | 2006 | Introduces dictionary learning for sparse patch representations. Denoising is performed via sparse coding over the learned dictionary. |
+| Image Denoising by Sparse 3D Transform-Domain Collaborative Filtering (Dabov et al.) | [Link](https://ieeexplore.ieee.org/document/4271520) | 2007 | Introduces BM3D, which groups similar patches into 3D stacks and performs collaborative filtering in the transform domain. Considered the classical state-of-the-art for Gaussian denoising. |
+| Weighted Nuclear Norm Minimization with Application to Image Denoising (Gu et al.) | [Link](http://openaccess.thecvf.com/content_cvpr_2014/html/Gu_Weighted_Nuclear_Norm_2014_CVPR_paper.html) | 2014 | Uses low-rank modeling of grouped patches for denoising via nuclear norm minimization. A strong non-local method competitive with BM3D. |
+
+---
 
 ### Deep Learning Methods
 
 | Title | Link | Year | Description |
 |-------|------|------|-------------|
-| Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (DnCNN) (Zhang et al.) | [Link](https://arxiv.org/abs/1608.03981) | 2017 | Introduces DnCNN: a residual CNN that learns the noise rather than the clean image. Achieves strong blind Gaussian denoising and generalizes to JPEG artifact removal. Highly influential in learned image restoration. |
-| FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (Zhang et al.) | [Link](https://ieeexplore.ieee.org/document/8365806) | 2018 | Extends DnCNN by accepting a tunable noise level map as input, enabling flexible control over denoising strength and handling spatially varying noise without retraining. |
-| Toward Convolutional Blind Denoising of Real Photographs (CBDNet) (Guo et al.) | [Link](https://arxiv.org/abs/1807.04686) | 2019 | A two-stage network that first estimates a spatially varying noise map and then performs denoising conditioned on it. One of the first DL methods to seriously address real camera noise. |
-| Real Image Denoising with Feature Attention (RIDNet) (Anwar & Barnes) | [Link](https://arxiv.org/abs/1904.07396) | 2019 | Single-stage network with feature attention modules trained on real noise datasets. Achieves strong performance on SIDD and DND without the explicit noise estimation stage. |
-| Plug-and-Play Image Restoration with Deep Denoiser Prior (DRUNet) (Zhang et al.) | [Link](https://arxiv.org/abs/2008.13751) | 2021 | Proposes DRUNet — a powerful UNet-based denoiser — and demonstrates its use as a learned prior in half-quadratic splitting (HQS) for a range of inverse problems. Widely used as a denoiser in plug-and-play solvers. |
-| Restormer: Efficient Transformer for High-Resolution Image Restoration (Zamir et al.) | [Link](https://arxiv.org/abs/2111.09881) | 2022 | Transformer-based architecture with multi-DConv head transposed attention (MDTA) and gated-Dconv feed-forward networks. Achieves SOTA on Gaussian denoising, real denoising, and motion deblurring. |
-| Simple Baselines for Image Restoration (NAFNet) (Chen et al.) | [Link](https://arxiv.org/abs/2204.04676) | 2022 | Shows that a simple nonlinear activation free network matches or exceeds complex transformer designs. Sets strong baselines on SIDD, GoPro, and REDS with high computational efficiency. |
-
+| Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (Zhang et al.) | [Link](https://ieeexplore.ieee.org/abstract/document/7839189/) | 2017 | Introduces DnCNN, a residual CNN that learns the noise instead of the clean image. A foundational deep denoising architecture and widely used benchmark. |
+| FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising (Zhang et al.) | [Link](https://ieeexplore.ieee.org/abstract/document/8365806/) | 2018 | Extends DnCNN by incorporating a noise-level map input, allowing the network to adapt to varying noise levels without retraining. |
+| Toward Convolutional Blind Denoising of Real Photographs (Guo et al.) | [Link](http://openaccess.thecvf.com/content_CVPR_2019/html/Guo_Toward_Convolutional_Blind_Denoising_of_Real_Photographs_CVPR_2019_paper.html) | 2019 | Introduces CBDNet, a two-stage model that estimates a noise map before performing denoising, enabling improved performance on real camera noise. |
+Plug-and-Play Image Restoration with Deep Denoiser Prior (Zhang et al.) | [Link](https://ieeexplore.ieee.org/abstract/document/9454311) | 2021 | Introduces DRUNet, a powerful noise-level conditioned UNet denoiser used for Gaussian and real image denoising and widely adopted in image restoration pipelines. |
+| Restormer: Efficient Transformer for High-Resolution Image Restoration (Zamir et al.) | [Link](https://openaccess.thecvf.com/content/CVPR2022/html/Zamir_Restormer_Efficient_Transformer_for_High-Resolution_Image_Restoration_CVPR_2022_paper.html) | 2022 | Transformer-based architecture designed for high-resolution restoration tasks including deblurring. |
 ---
 
 ## 🗄️ Datasets
@@ -72,12 +77,11 @@ Classical methods exploit hand-crafted image priors — non-local self-similarit
 | Title | Link | Description |
 |-------|------|-------------|
 | DnCNN / FFDNet (official) | [Link](https://github.com/cszn/DnCNN) | Original MATLAB and PyTorch implementations of DnCNN, FFDNet, and related residual denoising networks by Kai Zhang. |
-| BM3D (reference implementation) | [Link](https://github.com/gfacciol/bm3d) | Python port of the original BM3D algorithm; widely used as a classical baseline and as a prior in inverse problem solvers. |
-| Restormer (official) | [Link](https://github.com/swz30/Restormer) | Official PyTorch implementation with pretrained models for Gaussian denoising, real denoising, and motion deblurring. |
+| BM3D | [Link](https://pypi.org/project/bm3d/) | BM3D algorithm; widely used as a classical baseline and as a prior in inverse problem solvers. |
+| Restormer (official) | [Link](https://github.com/swz30/Restormer) | Official PyTorch implementation of Restormer; includes pretrained models and evaluation scripts for GoPro and RealBlur. |
 | BasicSR | [Link](https://github.com/XPixelGroup/BasicSR) | General-purpose PyTorch restoration framework with implementations of DnCNN, RealESRGAN, and many other restoration models; well-maintained and widely used for benchmarking. |
 | KAIR (Image Restoration Toolbox) | [Link](https://github.com/cszn/KAIR) | Comprehensive toolbox from Kai Zhang including DnCNN, FFDNet, DRUNet, IRCNN, and others; supports plug-and-play integration. |
 
 ---
 
-{: .highlight }
-> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../../contributing/) before submitting.
+> 💡 **Want to add something?** Papers should be seminal or widely recognized as important by the community. Datasets and code should be in broad use. [Read the Contribution Guide](../../CONTRIBUTING.md) before submitting.
