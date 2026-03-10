@@ -9,7 +9,7 @@ has_children: true
 This subfield covers methods for correcting optical distortions introduced when imaging through turbulent media. It addresses challenges like atmospheric turbulence for ground-based astronomy and aero-optical effects in airborne imaging, using both computational restoration and hardware-based adaptive optics.
 
 Browse papers by sub-topic using the sidebar, or jump directly to:
-[Aero-Optical Effects](imaging-through-turbulence/aero-optical-effects) · [Atmospheric Turbulence](imaging-through-turbulence/atmospheric-turbulence) · [Adaptive Optics](imaging-through-turbulence/adaptive-optics)
+[Aero-Optical Effects](aero-optical-effects) · [Atmospheric Turbulence](atmospheric-turbulence) · [Adaptive Optics](adaptive-optics)
 
 <!-- ---
 
