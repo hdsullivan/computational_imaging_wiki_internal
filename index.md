@@ -20,8 +20,8 @@ Resources are organized by subfield, so you can quickly find what's relevant whe
 
 ## Browse by Subfield
 
-- [Inverse Problems](docs/inverse-problems.md)
 - [Image Restoration](docs/image-restoration.md)
+- [Imaging through Turbulence](docs/imaging-through-turbulence.md)
 
 ---
 

@@ -26,7 +26,7 @@ Papers should be seminal, widely cited, or clearly game-changing — work that h
 
 | Subfield | Papers | Datasets | Code |
 |----------|--------|----------|------|
-| [Inverse Problems](docs/inverse-problems.md) | ✓ | ✓ | ✓ |
+| [Imaging through Turbulence](docs/imaging-through-turbulence.md) | ✓ | ✓ | ✓ |
 | [Image Restoration](docs/image-restoration.md) | ✓ | ✓ | ✓ |
 
 ---
@@ -35,6 +35,7 @@ Papers should be seminal, widely cited, or clearly game-changing — work that h
 
 - **Inverse Problems** — reconstruction from indirect, noisy, or incomplete measurements
 - **Image Restoration** — general denoising, deblurring, super-resolution, and restoration
+- **Imaging through Turbulence** - correcting optical distortions introduced when imaging through turbulent media
 
 ---
 
