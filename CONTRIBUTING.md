@@ -75,10 +75,7 @@ Please copy the format below exactly. Entries that don't follow it will be asked
 
 ## Writing Good Descriptions
 
-Descriptions should explain **why** a resource matters, not just what it is. Compare:
-
-- ❌ *"A paper about image reconstruction using deep learning."*
-- ✅ *"Introduced the U-Net architecture with skip connections, which became the dominant model for biomedical image segmentation."*
+Descriptions should explain **why** a resource matters, not just what it is. For example, instead of "A paper about image reconstruction using deep learning", use "Introduced the U-Net architecture with skip connections, which became the dominant model for biomedical image segmentation."
 
 Assume the reader is a researcher in a neighboring subfield who needs to quickly understand the significance of the work.
 
